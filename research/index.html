@@ -3,118 +3,244 @@ layout: default
 title: Tianyao Qu's Homepage
 ---
 
+<style>
+.research-section {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+}
 
-<div class="blurb">
-  <h3>Research Experiences</h3>
-  <br>
-	<p>
-    My research and teaching interests center on the sociology of health and illness, aging and the life course, social networks, gender, and economic sociology. Methodologically, my work combines demographic and statistical approaches with specialized tools such as social network analysis, multilevel and longitudinal modeling, and sequence analysis. Broadly, my work aims to understand how social structures and micro-level processes shape health and well-being over time, with a particular emphasis on later life. Across projects, I investigate how social networks reflect and contribute to population-level health disparities, how the (in)stability and sequencing of daily routines regulate stress and cognitive well-being, and how environmental, temporal, and market contexts shape access to care and emotional resources. 
-</div>p>
-	<p>	
-	Specifically, I am interested in using social networks as both a data source and an analytic framework to discern the social process that produces health consequences. 
-	My research focuses on examining how changes in, and the form and order of, social connections relate to health inequality over time and across the life course. I place particular emphasis on understanding the heterogeneous meanings brought by social contexts in which well-being is intertwined with social relationships. In my dissertation and other work, I develop the argument that social relationships and interactions are highly structured and regularized – whether in the realms of virtual intimacy, personal networks, daily family interactions, or time spent with other people. 
-   </p>    <br>
-       
-	<p>
-  <br><be>
+.research-section .section-title {
+  font-size: 1.9em;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #444;
+  padding-bottom: 0.35rem;
+}
 
-		<h4> (1) Social Networks and Health in Later Life </h4>
-        <p>
-<b> Tianyao Qu. 2024. <a href= "https://doi.org/10.1016/j.socscimed.2024.116684" target="_blank"> "A Bridge Too Far? Social Network Structure as a Determinant of Depression in Later Life." </a></b> Social Science & Medicine
-<br><br>
-In the first chapter of my dissertation, I investigated how bridging across disparate social domains may influence mental health status among older adults. Using within- and between-person models, I find that bridging unconnected kin and non-kin members in the network could produce interpersonal strain that leads to elevated depressive symptoms over time, especially among older adults in the younger generations. This paper received the 2023 Cornell Sociology Department’s Robin M. Williams, Jr. Best Paper Award.
-        </p>
-	<br><be>
-	<br><be>
-		
-	<p>
-<b>Tianyao Qu. 2023. <a href="https://doi.org/10.1016/j.socnet.2023.01.007" target="_blank">“Chronic Illness and Social Network Bridging in Later Life.”</a></b> Social Networks 74:1-12.
-	</p>
-	<p>
-In this paper, I explored the direct and indirect roles of chronic health conditions in shaping structural features of interpersonal relationships that grant resources and independence in later life. Through lagged modeling approaches and mediation analysis, I constructed network turnover variables to show that older adults diagnosed with chronic illnesses moved to an endogenous network structure over time in which they have denser networks owing to stable family members, heightened interactions among family and friends and neighbors, as well as the shedding of non-kin ties. 
-	</p>	
-<br><be>
-<br><be>
-	
-	<p>
-Cornwell, Benjamin, and <b>Tianyao Qu</b>. 2023. <a href="https://doi.org/10.1177/00221465231175685" target="_blank">“‘I Love You to Death’: Social Networks and the Widowhood Effect on Mortality.”</a> Journal of Health and Social Behavior
-	</p>
-        <p>
-In collaboration with Professor Cornwell, this paper investigates whether the spouse’s connections to other network members play a role in mitigating or exacerbating the widowhood effect in later life. Utilizing survival analysis and panel data with proxy mortality records, we revealed that mortality risks are higher among older individuals whose spouses were not well-connected to other members of their networks. 
-        </p>
+.research-section .sub-title {
+  font-size: 1.5em;
+  font-weight: 650;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #222;
+}
 
-  <br><be>
+.research-section p {
+  font-size: 1.06em;
+  margin: 0 0 1rem 0;
+}
 
-	        <h4> (2) Temporal-structure of Social Behaviors and Health Implications by Gender  </h4>
-<p>
-	My second line of research examines how the temporal organization of social life (daily activities and interactions)—whether structured or fragmented, stable or shifting—shapes momentary well-being and cumulative cognitive load.
-</p>
-	  <p>
-One dissertation chapter using American Time Use Survey diaries demonstrates that individuals with structured weekday schedules (e.g., 9–5) reported better cognitive health and life satisfaction. This suggests that temporal embeddedness—alignment across widely shared social rhythms—confers health benefits, whereas time spent alone undermines health only among those lacking such regular routines. 
- </p>  
+.research-section .paper {
+  margin: 0.4rem 0 0.6rem 0;
+  font-size: 1.06em;
+}
 
-	<p>
-	 “Tianyao Qu. Stay Connected or Regulated? Social Sequences of Everyday Activities and Health during the
-Global Pandemic.” In preparation for submission.
-	</p>
-	<p>	
-As an extension, a first-authored postdoctoral project uses sequence data from ecological momentary assessment (EMA) of a state representative sample to show that older adults with more stable daily routines report lower cognitive effort in real time than those with more fragmented schedules. Moreover, older adults with poorer cognitive functioning (e.g., reduced working memory) are more likely to exhibit repetitive daily schedules across the week. 
-	</p>
+.research-section .paper b {
+  font-weight: 700;
+}
 
-	<p>	
-	Tianyao Qu. ““Daily Routines and Cognitive Effort: An Innovative Use of Ecological Momentary Assessment Data.” .” In progress.
-	</p>
+.research-section a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
 
+.research-section a:hover {
+  border-bottom-color: rgba(0,0,0,0.5);
+}
 
-	  
-<br><be>	  
-<br><be>
-		<h4> (3) Relational Work in the Chinese Live-streaming Industry </h4>
+.research-section .spacer {
+  height: 0.75rem;
+}
+
+.research-section .block-spacer {
+  height: 1.2rem;
+}
+
+.research-section .small-note {
+  font-size: 0.96em;
+  color: #555;
+}
+
+.research-section .list-tight p {
+  margin-bottom: 0.6rem;
+}
+</style>
+
+<div class="blurb research-section">
+  <h2 class="section-title">Research Experiences</h2>
+
   <p>
-  Livestreaming shows have gained immense popularity in China in the past few years, attracting millions of viewers who financially support their favorite streamers through means like virtual gifts. This study explores what is valued and exchanged in the gifting process and how the relational match between live streamers and their patrons is produced through gifting. To delve into these dynamics, this study employs data from online observations at Douyin sibling TikTok, a leading video platform in China, along with 55 in-depth interviews with live streamers, patrons, and guild agents of both genders.
-  <br>
+    My research and teaching interests center on the sociology of health and illness, aging and the life course,
+    social networks, gender, and economic sociology. Methodologically, my work combines demographic and statistical
+    approaches with specialized tools such as social network analysis, multilevel and longitudinal modeling, and
+    sequence analysis. Broadly, I aim to understand how social structures and micro-level processes shape health
+    and well-being over time, with a particular emphasis on later life. Across projects, I investigate how social
+    networks reflect and contribute to population-level health disparities, how the (in)stability and sequencing
+    of daily routines regulate stress and cognitive well-being, and how environmental, temporal, and market
+    contexts shape access to care and emotional resources.
+  </p>
+
+  <p>
+    Specifically, I use social networks as both a data source and an analytic framework to identify social processes
+    that produce health consequences. My work examines how changes in—along with the form and order of—social
+    connections relate to health inequality over time and across the life course, with particular attention to the
+    heterogeneous meanings that emerge from social contexts. In my dissertation and related projects, I argue that
+    social relationships and interactions are highly structured and regularized, whether in the realms of virtual intimacy,
+    personal networks, daily family interactions, or time spent with others.
+  </p>
+
+  <div class="block-spacer"></div>
+
+  <h3 class="sub-title">(1) Social Networks and Health in Later Life</h3>
+
+  <p class="paper">
+    <b>Tianyao Qu. 2024.</b>
+    <a href="https://doi.org/10.1016/j.socscimed.2024.116684" target="_blank" rel="noopener">
+      “A Bridge Too Far? Social Network Structure as a Determinant of Depression in Later Life.”
+    </a>
+    <i>Social Science &amp; Medicine</i>.
   </p>
   <p>
-  Building on Zelizer’s seminal concept of relational earmarking, I proposed an “earmark of emotions” framework conceptualizing (male) patron’s virtual gifting to live streamers as a way of acquiring virtual intimacy. Using mixed methods, I argue that patrons’ gender positions, intertwined with other socioeconomic factors, shape their emotional needs. These needs are monetized through gifting to live streamers, encompassing aspirations for elevated social status, masculinity ideals, identity recognition, companionship, and romantic fantasies. This project provides an economic lens to comprehend the growing use of communication technology in shaping gendered digitized intimacy due to the lack of connectedness amid the escalating complexity of relationship structures and mental health issues in East Asia.
+    In the first chapter of my dissertation, I investigate how bridging across disparate social domains influences mental health
+    among older adults. Using within- and between-person models, I find that bridging unconnected kin and non-kin network members
+    can produce interpersonal strain that elevates depressive symptoms over time, especially among younger cohorts of older adults.
+    This paper received the 2023 Cornell Sociology Department’s Robin M. Williams, Jr. Best Paper Award.
+  </p>
+
+  <div class="spacer"></div>
+
+  <p class="paper">
+    <b>Tianyao Qu. 2023.</b>
+    <a href="https://doi.org/10.1016/j.socnet.2023.01.007" target="_blank" rel="noopener">
+      “Chronic Illness and Social Network Bridging in Later Life.”
+    </a>
+    <i>Social Networks</i> 74: 1–12.
   </p>
   <p>
-  Tianyao Qu. “Paying for Affection, Intimacy, or Status? Virtual Gifting and Emotional Value in Chinese Live‑Streaming.” Under Review. 
+    This paper examines direct and indirect roles of chronic conditions in shaping network structures that grant resources and independence
+    in later life. Using lagged models and mediation analysis, I construct network turnover variables showing that older adults diagnosed with
+    chronic illness move toward more endogenous network structures over time—denser networks driven by stable family members, heightened interactions
+    among family/friends/neighbors, and the pruning of non-kin ties.
+  </p>
 
-  </p>	  
+  <div class="spacer"></div>
 
+  <p class="paper">
+    Cornwell, Benjamin, and <b>Tianyao Qu</b>. 2023.
+    <a href="https://doi.org/10.1177/00221465231175685" target="_blank" rel="noopener">
+      “‘I Love You to Death’: Social Networks and the Widowhood Effect on Mortality.”
+    </a>
+    <i>Journal of Health and Social Behavior</i>.
+  </p>
+  <p>
+    With Professor Cornwell, we test whether the spouse’s connections to other network members mitigate or exacerbate the widowhood effect.
+    Leveraging survival analysis and panel data with proxy mortality records, we show that mortality risks are higher among older individuals
+    whose spouses were weakly connected to others in their networks.
+  </p>
 
-<br><be>	
-  <h3> Other Publications and Works in Progress </h3>
-	<p>
-		Cornwell, Benjamin, <b>Tianyao Qu</b>, and Erin York Cornwell. 2024. <a href=https://academic.oup.com/psychsocgerontology/advance-article-abstract/doi/10.1093/geronb/gbae044/7641147>“The Social Connectedness of Older Adults during the COVID-19 Pandemic: Evidence by Survey Mode and Respondent Dementia.” The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences gbae044.
-        </p>
-        <p>
-                Wright, L., Muenster, R., Vecchione, B., Qu, T., Cai, S., Smith, A., Student Investigators, Metcalf, J., Matias, J.N. (Jan 22, 2024) Null Compliance: NYC Local Law 144 and the Challenges of Algorithm Accountability. DOI 10.17605/OSF.IO/UPFDK
-	            [Media Coverage: Wall Street Journal]
-        </p>
-	
-	<p>
-		<b>Tianyao Qu</b>. “Is Power Attractive in Later Life? Social Networks and Physical Appearance among Older Adults.” In progress.
-	</p>
-	
-        <p>
-	Xuewen Yan & <b>Tianyao Qu</b>. 2022. <a href="https://doi.org/10.1080/21620555.2021.1934824" target="_blank">“Linked through the Life Course: Core Family Members’ Infection, COVID-19 Illness Severity, and the Moderating Role of Age.”</a> Chinese Sociological Review 54:482-515.
-	</p>
-	<p>
-		Xuewen Yan, <b>Tianyao Qu</b>, Nathan Sperber, Jinyuan Lu, Mengzhen Fan, Benjamin Cornwell. 2021. <a href="https://doi.org/10.1177/00027642211003138" target="_blank">“Tied Infections: How Social Connectedness to Other COVID-19 Patients Influences Illness Severity.”</a> American Behavioral Scientist 65:1901-1928.
-	</p>
-	<p>
-		Si Min Dai, <b>Tianyao Qu</b>, Zicheng Du. 2017. <a href="http://www.cqvip.com/qk/81600x/201703/672378123.html" target="_blank">“Metaphor of Nationwide Online Live Show: Attempt of Youth to Reconstruct Community from Postmodern Perspective.”</a> Youth Exploration 3:5-15.
-	</p>
-  <br><br>
+  <div class="block-spacer"></div>
 
+  <h3 class="sub-title">(2) Temporal Structure of Social Behaviors and Health Implications by Gender</h3>
 
-	<br><be>	
-	<p>
-	I believe in open science. Code files that produce most of my work can be found here. 
+  <p>
+    My second line of research investigates how the temporal organization of social life—structured vs. fragmented, stable vs. shifting—shapes
+    momentary well-being and cumulative cognitive load.
+  </p>
+  <p>
+    One dissertation chapter using American Time Use Survey diaries shows that individuals with structured weekday schedules (e.g., 9–5) report
+    better cognitive health and life satisfaction. Temporal embeddedness—alignment with widely shared social rhythms—confers health benefits,
+    whereas time spent alone undermines health primarily among those lacking regular routines.
+  </p>
+
+  <p class="paper small-note">
+    “Tianyao Qu. Stay Connected or Regulated? Social Sequences of Everyday Activities and Health during the Global Pandemic.” In preparation.
+  </p>
+
+  <p>
+    Extending this work, a first-authored postdoctoral project uses sequence data from ecological momentary assessment (EMA) in a state-representative
+    sample to show that older adults with more stable daily routines report lower cognitive effort in real time than those with fragmented schedules.
+    Moreover, older adults with poorer cognitive functioning (e.g., reduced working memory) are more likely to exhibit repetitive daily schedules across the week.
+  </p>
+
+  <p class="paper small-note">
+    Tianyao Qu. “Daily Routines and Cognitive Effort: An Innovative Use of Ecological Momentary Assessment Data.” In progress.
+  </p>
+
+  <div class="block-spacer"></div>
+
+  <h3 class="sub-title">(3) Relational Work in the Chinese Live-Streaming Industry</h3>
+
+  <p>
+    Livestreaming has surged in China, with viewers financially supporting streamers through virtual gifts. This project examines what is valued and exchanged
+    in gifting and how relational matching between streamers and patrons is produced. Data come from online observations on Douyin (TikTok’s sibling) and
+    55 in-depth interviews with streamers, patrons, and guild agents of all genders.
+  </p>
+  <p>
+    Building on Zelizer’s concept of relational earmarking, I propose an “earmark of emotions” framework: (male) patrons’ virtual gifting as acquisition of
+    virtual intimacy. Using mixed methods, I show how gender positions and socioeconomic factors shape emotional needs that are monetized through gifting—
+    aspirations for status elevation, masculinity ideals, identity recognition, companionship, and romantic fantasy. This work provides an economic lens on
+    gendered, digitized intimacy amid weakening connectedness and rising mental-health concerns in East Asia.
+  </p>
+  <p class="paper small-note">
+    Tianyao Qu. “Paying for Affection, Intimacy, or Status? Virtual Gifting and Emotional Value in Chinese Live-Streaming.” Under review.
+  </p>
+
+  <div class="block-spacer"></div>
+
+  <h3 class="sub-title">Other Publications and Works in Progress</h3>
+
+  <div class="list-tight">
+    <p>
+      Cornwell, Benjamin, <b>Tianyao Qu</b>, and Erin York Cornwell. 2024.
+      <a href="https://academic.oup.com/psychsocgerontology/advance-article-abstract/doi/10.1093/geronb/gbae044/7641147" target="_blank" rel="noopener">
+        “The Social Connectedness of Older Adults during the COVID-19 Pandemic: Evidence by Survey Mode and Respondent Dementia.”
+      </a>
+      <i>The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences</i>, gbae044.
     </p>
-	<br><br>
 
+    <p>
+      Wright, L., Muenster, R., Vecchione, B., Qu, T., Cai, S., Smith, A., Student Investigators, Metcalf, J., Matias, J. N. (Jan 22, 2024).
+      <a href="https://doi.org/10.17605/OSF.IO/UPFDK" target="_blank" rel="noopener">
+        Null Compliance: NYC Local Law 144 and the Challenges of Algorithm Accountability.
+      </a>
+      DOI: 10.17605/OSF.IO/UPFDK <span class="small-note">[Media Coverage: Wall Street Journal]</span>
+    </p>
 
-	
+    <p>
+      <b>Tianyao Qu</b>. “Is Power Attractive in Later Life? Social Networks and Physical Appearance among Older Adults.” In progress.
+    </p>
+
+    <p>
+      Xuewen Yan &amp; <b>Tianyao Qu</b>. 2022.
+      <a href="https://doi.org/10.1080/21620555.2021.1934824" target="_blank" rel="noopener">
+        “Linked through the Life Course: Core Family Members’ Infection, COVID-19 Illness Severity, and the Moderating Role of Age.”
+      </a>
+      <i>Chinese Sociological Review</i> 54: 482–515.
+    </p>
+
+    <p>
+      Xuewen Yan, <b>Tianyao Qu</b>, Nathan Sperber, Jinyuan Lu, Mengzhen Fan, Benjamin Cornwell. 2021.
+      <a href="https://doi.org/10.1177/00027642211003138" target="_blank" rel="noopener">
+        “Tied Infections: How Social Connectedness to Other COVID-19 Patients Influences Illness Severity.”
+      </a>
+      <i>American Behavioral Scientist</i> 65: 1901–1928.
+    </p>
+
+    <p>
+      Si Min Dai, <b>Tianyao Qu</b>, Zicheng Du. 2017.
+      <a href="http://www.cqvip.com/qk/81600x/201703/672378123.html" target="_blank" rel="noopener">
+        “Metaphor of Nationwide Online Live Show: Attempt of Youth to Reconstruct Community from Postmodern Perspective.”
+      </a>
+      <i>Youth Exploration</i> 3: 5–15.
+    </p>
+  </div>
+
+  <div class="block-spacer"></div>
+
+  <p class="small-note">
+    I believe in open science. Code files that produce most of my work can be found here.
+  </p>
 </div><!-- /.blurb -->
